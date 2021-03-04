@@ -85,6 +85,7 @@ module RuboCop
           python
           python@3
           rsync
+          ruby@2.7
           vim
           xz
           zsh
