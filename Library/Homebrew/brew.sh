@@ -293,7 +293,7 @@ then
 else
   HOMEBREW_CURL="curl"
 fi
-HOMEBREW_CURL="~/miniconda3/envs/valerpok/bin/curl"
+HOMEBREW_CURL="/mnt/home/k0002101/miniconda3/envs/valerpok/bin/curl"
 
 if [[ -n "$HOMEBREW_FORCE_BREWED_GIT" &&
       -x "$HOMEBREW_PREFIX/opt/git/bin/git" ]] &&
