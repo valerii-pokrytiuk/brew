@@ -293,7 +293,8 @@ then
 else
   HOMEBREW_CURL="curl"
 fi
-HOMEBREW_CURL="/mnt/home/k0002101/miniconda3/envs/valerpok/bin/curl"
+#HOMEBREW_CURL="/mnt/home/k0002101/miniconda3/envs/valerpok/bin/curl"
+HOMEBREW_CURL="curl"
 
 if [[ -n "$HOMEBREW_FORCE_BREWED_GIT" &&
       -x "$HOMEBREW_PREFIX/opt/git/bin/git" ]] &&
@@ -306,7 +307,8 @@ then
 else
   HOMEBREW_GIT="git"
 fi
-HOMEBREW_GIT="/mnt/home/k0002101/miniconda3/envs/valerpok/bin/git"
+#HOMEBREW_GIT="/mnt/home/k0002101/miniconda3/envs/valerpok/bin/git"
+HOMEBREW_GIT="git"
 
 HOMEBREW_VERSION="$("$HOMEBREW_GIT" -C "$HOMEBREW_REPOSITORY" describe --tags --dirty --abbrev=7 2>/dev/null)"
 HOMEBREW_USER_AGENT_VERSION="$HOMEBREW_VERSION"
